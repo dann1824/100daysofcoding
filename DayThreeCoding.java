@@ -34,12 +34,6 @@ System.out.println();
   //Ini juga bisa digunakan untuk validasi input pengguna di mana pengguna menghapus karakter input.
 System.out.println("Pemrograman Java Dari Nol\be");
   System.out.println("jadi itulah beberapa \"karakter\" yang telah saya pahami\");
-                     
-
-
-
-
-  
-    
+                      
   }
 }
