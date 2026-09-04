@@ -1,0 +1,45 @@
+public class DayThreeCoding {
+  public static void main(String[] args){
+    // 01. penggunaan baris baru bisa memakai \n (baris baru)
+System.out.println("Saya mau belajar java. \n Dari nol");
+  System.out.println();
+  
+  //02. penggunaan tab bisa memakai \t (tab)
+  System.out.println("Saya belajar java. \t Dari basic");
+  System.out.println();
+  
+  //03. penggunaan return (kembali) bisa memakai \r
+  //simple nya itu, seperti kita ingin kembali ke -
+  //awal baris tanpa maju ke bawah
+  System.out.println("Kalimat pertama. \r Kembali ke kalimat awal");
+System.out.println();
+  //04. untuk karakter selanjutnya itu ialah ketika kita-
+  //ingin membuat sebuah karakter terbalik, contohnya 
+  System.out.println("Contohnya E:\\conf\\code");
+System.out.println();
+  //05. kemudian untuk selanjutnya jika kita ingin membuat 
+  //karakter tanda kutip 1 dalam sebuah teks yaitu 
+  System.out.println("Saya \'Mau\' belajar Java");
+System.out.println();
+  //06. selanjutnya adalah ia sama seperti sebelumnya cuman -
+  //yang membedakan adalah di sini memakai karakter tanda kutip 2
+  System.out.println("Saya mulai \"paham\" dengan java");
+  System.out.println();
+  //07. simple nya dia ini seperti pemisah halaman dalam Java 
+  // \f
+  System.out.println("Halaman satu. \f Halaman dua");
+  System.out.println();
+  //08. Urutan escape \b di Java digunakan untuk menyisipkan karakter backspace.
+  //dia dapat menggeser satu karakter ke belakang dan mungkin nda menghapus karakter sebelumnya. 
+  //Ini juga bisa digunakan untuk validasi input pengguna di mana pengguna menghapus karakter input.
+System.out.println("Pemrograman Java Dari Nol\be");
+  System.out.println("jadi itulah beberapa \"karakter\" yang telah saya pahami\");
+                     
+
+
+
+
+  
+    
+  }
+}
