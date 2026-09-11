@@ -1,27 +1,41 @@
-
 public class DayTen {
-    
     public static void main(String[] args) {
-        // 1. Menampilkan batas minimal dan maksimal dari Wrapper Class
-        System.out.println("Batas Integer: " + Integer.MIN_VALUE + " sampai " + Integer.MAX_VALUE);
-        System.out.println("Batas Byte: " + Byte.MIN_VALUE + " sampai " + Byte.MAX_VALUE);
         
-        // 2. Contoh deklarasi variabel nya yang valid 
-        byte umur = 25; 
-        int jumlahPendudukWonoKiraKira = 280000000;
-        
-        // Untuk tipe long, tambahkan huruf 'L' di akhir angka kalo melebihi batasnya int
-        long jarakKiraKira = 9876543210L; 
-        
-        // Untuk tipe float ini, wajib hukum nya tambahkan huruf 'f' atau 'F' di akhir angka
-        float ipk_ku_sekarang = 4.00f;                 
-        double koordinat = -2.2088 * 306.9456; 
+        System.out.println("=== BATAS MINIMAL & MAKSIMAL TIPE DATA JAVA ===");
 
-        System.out.println("Umur: " + umur);
-        System.out.println("IPK: " + ipk_ku_sekarang);
+        // 1. KELOMPOK BILANGAN BULAT
+        System.out.println("Byte   Min: " + Byte.MIN_VALUE);
+        System.out.println("Byte   Max: " + Byte.MAX_VALUE);
+        System.out.println("-----------------------><><>------------------");
+
+        System.out.println("Short  Min: " + Short.MIN_VALUE);
+        System.out.println("Short  Max: " + Short.MAX_VALUE);
+        System.out.println(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>><><");
+
+        System.out.println("Int    Min: " + Integer.MIN_VALUE);
+        System.out.println("Int    Max: " + Integer.MAX_VALUE);
+        System.out.println("---------------------------------------------");
+
+        System.out.println("Long   Min: " + Long.MIN_VALUE);
+        System.out.println("Long   Max: " + Long.MAX_VALUE);
+        System.out.println("---------------------------------------------");
+
+        // 2. KELOMPOK BILANGAN PECAHAN
+        System.out.println("Float  Min: " + Float.MIN_VALUE + " (Positif terkecil mendekati 0)");
+        System.out.println("Float  Max: " + Float.MAX_VALUE);
+        System.out.println("---------------------------------------------");
+
+        System.out.println("Double Min: " + Double.MIN_VALUE + " (Positif terkecil mendekati 0)");
+        System.out.println("Double Max: " + Double.MAX_VALUE);
+        System.out.println("---------------------------------------------");
+
+        // 3. KELOMPOK KARAKTER
+        // Di-cast ke (int) agar muncul angka Unicode-nya (0 sampai 65535)
+        System.out.println("Char   Min: " + (int) Character.MIN_VALUE);
+        System.out.println("Char   Max: " + (int) Character.MAX_VALUE);
+        System.out.println("<><><><><><><><><><><><><><><><><><><><><><><><>");
+        
+        // Catatan: Boolean tidak memiliki MIN_VALUE/MAX_VALUE karena hanya true/false
+        System.out.println("Boolean   : hanya " + Boolean.FALSE + " atau " + Boolean.TRUE);
     }
-
-
-    }
-
-          
+}
