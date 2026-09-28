@@ -10,14 +10,27 @@ public class DayXXVII {
         
         a++;
         b++;
+        System.out.println("increment ++: a = " + a + ", b = " + b );
         
-        System.out.println("increment: a = " + a + ", b = " + b );
+       ++a;
+       ++b;
+       System.out.println("decrement ++: a= " + a + ", b = " + b);
+       
+       
+       System.out.println();
+       
+       int x = 100;
+       int y = 200;
+        x--;
+        y--;
+        System.out.println("increment -- : x = " + x + ", y = " +y);
+       
+       --x;
+       --y;
+        System.out.println("decrement -- : x = " + x + ", y = " + y);
         
-        a--;
-        b--;
         
-        System.out.println("decrement: a = " + a + ", b = " + b );
-           
+     
         
     }
     
