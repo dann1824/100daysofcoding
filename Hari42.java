@@ -10,11 +10,20 @@ public class Hari42 {
         double tunjangan = in.nextDouble();
 
         double kotor = gapok + tunjangan;
-        double pajak = 0.10 * kotor; // ini pajk ny 10%
+        double tarifPajak = 0.0;
+
+        // Kondisi IF untuk menentukan persentase pajak
+        if (kotor > 5000000) {
+            tarifPajak = 0.15; // 15% jika gaji kotor di atas 5 juta
+        } else {
+            tarifPajak = 0.05; // 5% jika gaji kotor 5 juta atau kurang
+        }
+
+        double pajak = tarifPajak * kotor;
         double bersih = kotor - pajak;
 
         System.out.println("Gaji Kotor : Rp " + kotor);
-        System.out.println("Pajak (10%): Rp " + pajak);
+        System.out.println("Pajak (" + (tarifPajak * 100) + "%): Rp " + pajak);
         System.out.println("Gaji Bersih: Rp " + bersih);
     }
-  }
+}
