@@ -1,22 +1,20 @@
-import java.util.Scanner;
+import java.util.Scanner; 
 
 public class Hari58 {
     public static void main(String[] args) {
-        Scanner in = new Scanner(System.in);
-        System.out.print("Masukkan nilai m: ");
-        int m = in.nextInt();
-        
+        Scanner input = new Scanner(System.in);
+
         System.out.print("Masukkan nilai n: ");
-        int n = in.nextInt();
+        int n = input.nextInt(); 
         
-        System.out.println("Bil.kelipatan " + m + " dari 1 sampai " + n + " yaitu:\n");
-        
-        for (int i = 1; i <= n; i++){
-            if (i % m == 0){
-                System.out.print(i + " ");
-            }
+        System.out.println("Bilangan dari n sampai " + "(n - 1)" + ":");
+        for (int i = n; i >= 1; i--) {
+            if (i % 2 == 0) { 
+                System.out.println(i + " " + "bilangan genap");
+            }else{
+           System.out.println(i + " " + "bilangan ganjil"); 
         }
-        System.out.println(); 
-        in.close();
+        }
+        input.close(); 
     }
-    }
+}
