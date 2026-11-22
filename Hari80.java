@@ -1,20 +1,14 @@
-import java.util.Scanner;
-
-public class Hari80 {
+public class Hari80{
     public static void main(String[] args) {
-        Scanner in = new Scanner(System.in);
-        System.out.print("jumlah semua elemen: ");
-        int n = in.nextInt();
-        int[] angka = new int[n];
-
-        for (int i = 0; i < n; i++) {
-            System.out.print("panjang " + i + ": ");
-            angka[i] = in.nextInt();
-        }
-
+        System.out.print("10, 20, 30, 40, 50");
+        int[] angka = {10, 20, 30, 40, 50};
+System.out.println();
         System.out.println();
-        for (int i = 0; i < n; i++) {
-            System.out.println("indeks " + i + ": " + angka[i]);
-        }
+        System.out.println("indeks 0: " + angka[0]);
+        System.out.println("--/-- 1: " + angka[1]);
+        System.out.println("--/-- 2: " + angka[2]);
+        System.out.println("--/-- 3: " + angka[3]);
+        System.out.println("--/-- 4: " + angka[4]);
+        
     }
 }
